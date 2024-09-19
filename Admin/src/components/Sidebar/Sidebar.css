@@ -1,0 +1,9 @@
+@media (max-width:900px) {
+    .sidebar-content p{
+        display: none;
+    }
+}
+.sidebar-content.active{
+    background-color: #fff0ed;
+    border-color: tomato;
+}

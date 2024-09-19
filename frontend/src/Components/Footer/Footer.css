@@ -1,0 +1,26 @@
+.footer-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    width: 100%;
+    gap: 80px;
+}
+.left,.right,.center{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.left li,.right li,.center li{
+    margin-bottom: 8px;
+}
+
+@media (max-width:700px) {
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+     .copy{
+        text-align: center;
+    }
+}

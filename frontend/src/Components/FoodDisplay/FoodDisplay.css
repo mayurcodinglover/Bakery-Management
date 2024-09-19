@@ -1,0 +1,11 @@
+@media (max-width:1000px) {
+    .food-display-list  {
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+}
+@media (max-width:550px) {
+    .food-display-list{
+        grid-template-columns: repeat(1,1fr) !important;
+    }
+    
+}

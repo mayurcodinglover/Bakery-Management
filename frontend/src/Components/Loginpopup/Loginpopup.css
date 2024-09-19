@@ -1,0 +1,7 @@
+.popup-container{
+    width: max(23vw,330px);
+    animation: fadein 0.5s;
+}
+.input{
+    padding: 1rem !important;
+}

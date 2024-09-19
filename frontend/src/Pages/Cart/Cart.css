@@ -1,0 +1,35 @@
+.cartitems{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+}
+
+@media (max-width:1250px) {
+    .cart-promocode-input{
+        display: flex ;
+        flex-direction: column ;
+        gap: 1rem;
+    }
+    .btnapply{
+        width: 5rem;
+        position: relative;
+        left: 1rem;
+    }
+}
+@media (max-width:1080px) {
+    .cart-bottom{
+        display: flex ;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .cart-promocode{
+        width: 55%;
+    }
+}
+@media (max-width:412px) {
+    .cart-total{
+        width: 100%;
+    }
+    .cart-promocode{
+        width: 100%;
+    }
+}

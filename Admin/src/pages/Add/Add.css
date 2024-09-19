@@ -1,0 +1,21 @@
+@media (max-width:600px) {
+    .main-div{
+        width: 100%;
+    }
+    .input{
+        margin-left: 0 !important;
+    }
+}
+@media (max-width:470px) {
+    .main-div{
+        width: 70%;
+    }
+    .category-price{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .input{
+        margin-left: 0 !important;
+    }
+}
